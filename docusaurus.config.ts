@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://hwitopia.netlify.app/',
+  url: 'https://hwitopia.netlify.app',
   organizationName: 'jwyoon1220', // GitHub 사용자 이
   projectName: 'hwitopia-docs',   // 저장소 이름,
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -41,8 +41,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'no',
+
         },
         blog: {
           showReadingTime: true,
@@ -52,8 +51,6 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
